@@ -10,7 +10,6 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   if (kIsWeb) {
-    // ⚠️ Substitua os valores abaixo pelas suas chaves reais do Firebase Web!
     await Firebase.initializeApp(
       options: const FirebaseOptions(
           apiKey: "AIzaSyB9qlgxkU4iP6K64jqJWTZLzCw8Bi2Md0A",
