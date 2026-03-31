@@ -13,7 +13,7 @@ class SplashPage extends StatefulWidget {
 
 class _SplashPageState extends State<SplashPage> {
   late Timer _timer;
-  final int minSplashDuration = 3000; // 3 segundos
+  final int minSplashDuration = 4000; // 6 segundos
 
   @override
   void initState() {
@@ -58,7 +58,7 @@ class _SplashPageState extends State<SplashPage> {
         child: DecoratedBox(
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage("assets/imagens_flutter/eduardo.jpeg"),
+              image: AssetImage("assets/imagens_flutter/ricieri.png"),
               fit: BoxFit.cover,
             ),
           ),
